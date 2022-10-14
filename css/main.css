@@ -1,0 +1,701 @@
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul, ol{
+    list-style-type: none;
+}
+
+.container{
+    width: 1310px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__list{
+    margin-top: 50px;
+    margin-right: 137px;
+    display: flex;
+}
+
+.header__logo-link{
+    margin-top: 44px;
+    margin-left: 139px;
+    position: relative;
+}
+
+.header__logo-link1::before{
+    position: absolute;
+    left: -33px;
+    display: block;
+    content: "";
+    background-image: url(../images/logo-icon-svg.svg);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+
+}
+
+.header__link{
+    margin-left: 32px;
+    height: 15px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+
+.header__item-about{
+    margin-left: 33px;
+}
+
+.header__item-plan{
+    margin-left: 0;
+}
+
+/* end of header */
+
+/* main section */
+
+.main__inner{
+    background-image: url(../images/our-c-back.svg);
+    background-repeat: no-repeat; 
+    background-position: center 546px;
+}
+
+.title__section{
+    position: relative;
+    bottom: 20px;
+    margin-left: 108px;
+    display: block;
+    background-image: url(../images/coffe-back.svg);
+    background-repeat: no-repeat;
+    background-size: 1032px 541px
+}
+
+.main__title{
+    padding: 117px 0 32px 85px;
+    height: 145px;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900 bold;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+}
+
+.main__text{
+    padding:  100px 0px 0px 85px ;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+}
+
+.main__btn{
+    text-align: center;
+    padding: 8px 16px;
+    margin: 65px 85px;
+    height: 25px;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    width: 217px;
+    height: 56px;
+    border: none;
+    background: #0E8784;
+    border-radius: 6px; 
+}
+
+.collection{
+    position: relative;
+    top: 0px;
+    left: 10px;
+    display: flex;
+    justify-content: space-around;  
+    margin: 100px;
+}
+
+.collection__image1{
+    width: 250px;
+    height: 183px;
+    margin-top: 14px;
+}
+
+.visually__hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+.collection__title{
+    height: 32px;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B;
+}
+
+.collection__text{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333D4B;
+}
+
+.icon__image{
+    position: absolute;
+    left: 101px;
+    top: 20px;
+}
+
+.choose{
+    position: relative;
+    top: 28px;
+    left: 109px;
+    width: 1037px;
+    height: 549px;
+    border-radius: 9px;
+    align-items: center;
+    background-image: url(../images/black-back.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.choose__title{
+    padding-top: 121px;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FEFCF7;
+}
+
+.choose__text{
+    padding-bottom: 317px;
+    width: 540px;
+    height: 80px;
+    margin: 0 auto;
+    align-items: center;    
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+}
+
+.items__title{
+    padding-top: 146px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FEFCF7;
+}
+
+.items__text{
+    padding: 0px 37px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+}
+
+.bottom__section{
+    margin: 0 30px;
+}
+
+.choose__box{
+    display: flex;
+    position: relative;
+    margin: 1px 20px;
+}
+
+.items{
+    position: relative;
+    left: 148px;
+    top: -162px;
+    border-radius: 8px;
+    background-color: #0E8784;
+    width: 284px;
+    height: 357px;
+    margin: 0 12px;
+}
+
+.items__before::before{
+    display: inline-block;
+    position: absolute;
+    top: 60px;
+    left: 36%;
+    width: 71px;
+    height: 72px;
+    background-image: url(../images/cofe.svg);
+    background-repeat: no-repeat;
+    content: "";
+}
+
+.items__before2::before{
+    display: inline-block;
+    position: absolute;
+    top: 60px;
+    left: 36%;
+    width: 71px;
+    height: 72px;
+    background-image: url(../images/box.svg);
+    background-repeat: no-repeat;
+    content: "";
+}
+
+.items__before3::before{
+    display: inline-block;
+    position: absolute;
+    top: 76px;
+    left: 36%;
+    width: 71px;
+    height: 72px;
+    background-image: url(../images/car.svg);
+    background-repeat: no-repeat;
+    content: "";
+}
+
+
+.how__it-works{
+    width: 255px;
+    height: 32px;
+    margin-left: 157px;
+    margin-top: 0px;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+.works{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 38px;
+}
+
+.works__title{
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+}
+
+.works__text{
+    width: 285px;
+    height: 130px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+.works{
+    padding: 0 138px;
+    padding-top: 138px;
+}
+
+.works__box{
+    padding: 0px 17px;
+    position: relative;
+}
+
+.works__box1::before{
+    position: absolute;
+    top: -95px;
+    display: inline-block;
+    content: "";
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    background: #FEFCF7;
+    border: 2px solid #0E8784; 
+}
+.over__btn{
+    margin-left: 153px;
+    margin-top: 30px;
+    margin-bottom: 135px;
+}
+
+.line__father{
+    position: relative;
+}
+
+.line{
+    position: absolute;
+    top: 60px;
+    margin: 0px 169px;
+    display: block;
+    width: 652px;
+    height: 2px;
+    border: 2px solid #FDD6BA;
+}
+
+
+
+
+/* end of main sections */
+
+
+/* footer */
+
+.footer{
+    margin: 0 auto;
+    height: 96px;
+    background-color: #2C343E;
+}
+
+.footer__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 132px;
+    margin-right: -143px;
+}
+
+.footer__list{
+    display: flex;
+    margin: 1px 417px 0px -1px;
+
+}
+
+.footer__item-link{
+    padding: 0px 18px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+
+.footer__item-link1{
+    padding: 0px 18px;
+}
+
+.footer__item-link2{
+    padding: 0px 18px;
+}
+
+.icon__list{
+    display: flex;
+}
+
+.footer__link{
+    position: relative;
+    margin: 35px 48px;
+}
+
+.footer__link1::before{
+    position: absolute;
+    left: -33px;
+    display: block;
+    content: "";
+    background-image: url(../images/logo-icon-svg.svg);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+.icon__list{
+    position: relative;
+    right: 280px;
+}
+
+.icon{
+    padding: 16px;
+}
+
+/* end of footer */
+
+
+/* Here main of About us section  */
+
+
+.about__us-section{
+    width: 1035px;
+    height: 450px;
+    background-image: url(../about-images/about-hero.png);
+    background-repeat: no-repeat;
+    background-position: 0;
+    border-radius: 10px;
+    margin: 1px 110px;
+}
+
+.about__title{
+    padding: 137px 0 0 85px;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+
+.about__text{
+    width: 515px;
+    height: 104px;
+    padding: 24px 0 0 85px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}
+
+.our__commitment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 108px;
+}
+
+.description__commitment{
+    position: relative;
+    top: 57px;
+}
+
+.about__image{
+    padding-top: 131px;
+    width: 362px;
+    height: 573px;
+}
+
+.our__title{
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+}
+
+.our__text{
+    padding-top: 32px;
+    width: 540px;
+    height: 260px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    opacity: 0.8;
+}
+
+.quality__title{
+    position: relative;
+    top: -128px;
+    left: 90px;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+
+.quality__text{
+    left: 86px;
+    position: relative;
+    top: -138px;
+    width: 500px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+}
+
+.uncompromisin__quality{
+    position: relative;
+    border-radius: 10px;
+}
+
+.uncompromisin__quality::before{
+    position: absolute;
+    top: -66px;
+    right: 60px;
+    display: inline-block;
+    width: 391px;
+    height: 418px;
+    border-radius: 10px;
+    content: "";
+    background-image: url(../about-images/cofe-and-heart.png);
+    background-repeat: no-repeat;
+}
+
+.nav__title{
+    position: relative;
+    top: 260px;
+    margin-left: 165px;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+.about__list{
+    position: relative;
+    top: 388px;
+    right: 132px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 95px;
+    width: 285px;
+    height: 167px;
+}
+
+.about__item{
+    padding: 0 140px;
+    position: relative;
+}
+
+.about__item::before{
+    position: absolute;
+    top: -85px;
+    display: inline-block;
+    background-image: url(../about-images/british-icon.svg);
+    content: "";
+    width: 35px;
+    height: 49px;
+
+}
+
+
+.about__item1::before{
+    position: absolute;
+    top: -85px;
+    display: inline-block;
+    background-image: url(../about-images/canada.svg);
+    content: "";
+    width: 35px;
+    height: 49px;
+
+}
+
+.about__item2::before{
+    position: absolute;
+    top: -85px;
+    display: inline-block;
+    background-image: url(../about-images/astralia-icon.svg);
+    content: "";
+    width: 35px;
+    height: 49px;
+
+}
+
+.about__list:nth-last-child(){
+    padding-left: 0;
+}
+
+.strong{
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+}
+
+.about-item__text{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+.about__image{
+    padding-top: 168px;
+}
+
+.uncompromisin__quality{
+    position: relative;
+    top: 170px;
+    left: 105px;
+    width: 1061px;
+    padding-top: 170px;
+    background-image: url(../about-images/grey-background.png);
+    background-repeat: no-repeat;
+}
+
+.quality__title{    
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+.footer2{
+    margin: 0 auto;
+    height: 96px;
+    background-color: #2C343E;   
+}
+
+.footer__wrapper2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 546px 72px;
+    margin-right: -143px;
+}
